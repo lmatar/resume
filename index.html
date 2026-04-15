@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lynn Matar | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f6f8f6;
+      color: #2f3e2f;
+    }
+
+    header {
+      background: url('https://source.unsplash.com/1600x800/?nature,forest') center/cover;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(34, 60, 34, 0.5);
+    }
+
+    header div {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #3a5f3a;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 3rem 10%;
+    }
+
+    h2 {
+      color: #3a5f3a;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e3efe3;
+      margin: 5px;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #2f3e2f;
+      color: white;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      background: #4c7c4c;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    a.button:hover {
+      background: #3a5f3a;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 2rem 5%;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Lynn Matar</h1>
+    <p>Software Engineer | Building Scalable Systems & Data-Driven Applications</p>
+    <a class="button" href="#contact">Contact Me</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      Software Engineer with experience leading full-stack development across AWS and ServiceNow ecosystems.
+      Passionate about building intuitive, scalable systems and leveraging data to drive impactful decisions.
+    </p>
+    <p><strong>Education:</strong> B.S. Computer Science, Illinois Institute of Technology (GPA: 3.95)</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+
+  <div class="card">
+    <h3>Accenture — Software Developer Lead Consultant</h3>
+    <p><em>June 2025 – Present</em></p>
+    <p>Led a team of 5 developers delivering full-stack AWS + ServiceNow solutions. Built dynamic UI systems and improved data traceability via S3 integrations.</p>
+  </div>
+
+  <div class="card">
+    <h3>Accenture — Senior Analyst</h3>
+    <p><em>Dec 2023 – Present</em></p>
+    <p>Migrated 4M+ documents to AWS, reducing request time by 36 hours. Built Angular UI connecting systems and mentored engineers.</p>
+  </div>
+
+  <div class="card">
+    <h3>Scripted — Software Engineering Intern</h3>
+    <p><em>2020 – 2022</em></p>
+    <p>Developed React dashboards and automated testing, saving ~100 hours/month.</p>
+  </div>
+
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Square1</h3>
+    <p>Founded a platform connecting LGBTQ+ youth with safe resources across Chicago.</p>
+  </div>
+
+  <div class="card">
+    <h3>HaxML Soccer Analytics</h3>
+    <p>Built ML models predicting expected goals using 30M+ data points. Improved performance by 65%.</p>
+  </div>
+
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Python</span><span>JavaScript</span><span>React</span><span>AWS</span>
+    <span>SQL</span><span>Node.js</span><span>Angular</span><span>Redux</span>
+    <span>CI/CD</span><span>Machine Learning</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: lynnwmatar@gmail.com</p>
+    <p>GitHub: github.com/lmatar</p>
+    <p>LinkedIn: linkedin.com/in/lynnmatar</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Lynn Matar</p>
+</footer>
+
+</body>
+</html>
